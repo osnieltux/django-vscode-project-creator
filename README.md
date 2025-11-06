@@ -8,12 +8,14 @@ Create a Django project with UV and recommendations for VS Code
   - [vscodium](https://vscodium.com/#install)
 
 ```bash
+wget https://raw.githubusercontent.com/osnieltux/django-vscode-project-creator/refs/heads/main/create_django_env_legacy.sh
+chmod +x create_django_env_legacy.sh
 create_django_env_legacy.sh
 ```
 
 It will create the dependencies to start your project using uv and based on pylint. It will also create the basic recommendations. You are free to review the code before running it, as it has some customizations you may not need.
 
-### 🤖 create_django_env_legacy.sh Warning
+### ⚠️ create_django_env_legacy.sh Warning
 - Remeber to change your project name in settings (.vscode/settings.json -> "--django-settings-module=django_project.settings",)
 - keep disabled ms-python.vscode-pylance. Otherwise, you will not receive import recommendations.
 
