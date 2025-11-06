@@ -36,3 +36,7 @@ uv run manage.py runserver
 ```bash
 uv run gunicorn django_project.wsgi:application
 ```
+
+### 💸 Sponsors
+  [![PayPal](https://img.shields.io/badge/PayPal-00457C?style=for-the-badge&logo=paypal&logoColor=white)](https://paypal.me/osnieltux)
+
